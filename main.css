@@ -7,7 +7,7 @@ h1 {
     font-family: 'Lato',sans-serif !important;
     font-size: 40px !important;
     padding-top: 20px;
-    padding-bottom: 100px;
+    padding-bottom: 70px;
 }
 
 p {
@@ -25,12 +25,12 @@ p {
 }
 
 .quote {
-    font-size: 30px;
+    font-size: 25px;
     font-family: 'Raleway',sans-serif;
 }
 
 .author {
-    font-size: 20px;
+    font-size: 18px;
     font-family: 'Raleway',sans-serif;
 }
 
@@ -43,7 +43,18 @@ p {
     border-radius: 0 !important;
     color: #000 !important;
     letter-spacing: 1px;
+    height: 40px;
+        -webkit-transition: all .35s;
+        -moz-transition: all .35s;
+        transition: all .35s;
+        transition: all .35s ease-in-out;
 }
+
+.btn-default:hover {
+	
+	color: white !important;
+
+	}
 
 .tweet {
     margin-top: 10px;
@@ -57,10 +68,16 @@ p {
     text-decoration: none !important;
     margin: 10px;
     color: #000 !important;
+     height: 40px;	
+             -webkit-transition: all .35s;
+        -moz-transition: all .35s;
+        transition: all .35s;
+        transition: all .35s ease-in-out;
 }
 
 .tweet:hover {
     text-decoration: none !important;
+    color: white !important;
 }
 
 .btn-default1 {
@@ -79,4 +96,31 @@ p {
         -moz-transition: all .35s;
         transition: all .35s;
         transition: all .35s ease-in-out;
+    font-family: 'Raleway',sans-serif;
+}
+
+
+.btn-default2 {
+    margin-top: 10px;
+    font-family: 'Raleway',sans-serif;
+    background-color: black !important;
+
+    border: none;
+    border-style: none !important;
+    border-radius: 0 !important;
+    color: #FFF !important;
+    letter-spacing: 1px;
+    height: 40px;
+}
+
+
+.textmodal {
+	font-family: 'Raleway',sans-serif;
+	font-size: 15px;
+}
+
+
+.modal-title{
+	font-family: 'Raleway',sans-serif;
+
 }
