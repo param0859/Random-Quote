@@ -1,108 +1,82 @@
-body{
-	
-
-background-color: #FFF !important;
+body {
+    background-color: #FFF !important;
 }
 
 h1 {
-	color: black !important;
-	font-family: 'Lato', sans-serif !important;
-	font-size: 40px !important;
-	padding-top: 20px;
-	padding-bottom: 100px;
+    color: #000 !important;
+    font-family: 'Lato',sans-serif !important;
+    font-size: 40px !important;
+    padding-top: 20px;
+    padding-bottom: 100px;
 }
 
-p
-{
-	color: black;
-	font-family: "Helvetica";
-	font-size: 20px;
-	
-}	
-
+p {
+    color: #000;
+    font-family: "Helvetica";
+    font-size: 20px;
+}
 
 .quotes {
-	
-	
-	
-	min-width: 300px;
-	padding: 20px;	
-	height: auto;
-	margin-top: 20px;
-	color: black;
-	
-
+    min-width: 300px;
+    padding: 20px;
+    height: auto;
+    margin-top: 20px;
+    color: #000;
 }
 
 .quote {
-	font-size: 30px;
-	font-family: 'Raleway', sans-serif;
-
+    font-size: 30px;
+    font-family: 'Raleway',sans-serif;
 }
 
 .author {
-	font-size: 20px;
-	font-family: 'Raleway', sans-serif;
-	
-	
+    font-size: 20px;
+    font-family: 'Raleway',sans-serif;
 }
 
 .btn-default {
-	margin-top: 10px;
-	font-family: 'Raleway', sans-serif;
-	background-color: #1BBC9B !important;
-	border: none;
-	border-style: none !important;
-	border-radius: 0px !important;
-	color: black !important;
-	letter-spacing: 1px;
-
-
+    margin-top: 10px;
+    font-family: 'Raleway',sans-serif;
+    background-color: #1BBC9B !important;
+    border: none;
+    border-style: none !important;
+    border-radius: 0 !important;
+    color: #000 !important;
+    letter-spacing: 1px;
 }
 
 .tweet {
-	margin-top: 10px;
-	font-family: 'Raleway', sans-serif;
-	background-color: #87CEEB; !important;
-	border: none;
-	border-style: none !important;
-	border-radius: 0px !important;
-	color: black !important;
-	letter-spacing: 1px;
-	text-decoration: none !important;
-	margin: 10px;
-	color: black !important;
-
-
-
-
+    margin-top: 10px;
+    font-family: 'Raleway',sans-serif;
+    background-color: #87CEEB;
+    border: none;
+    border-style: none !important;
+    border-radius: 0 !important;
+    color: #000 !important;
+    letter-spacing: 1px;
+    text-decoration: none !important;
+    margin: 10px;
+    color: #000 !important;
 }
 
-
-
-
 .tweet:hover {
-	text-decoration: none !important;
+    text-decoration: none !important;
 }
 
 .btn-default1 {
-	position: absolute;
-	bottom: 10px;
-	left: 10px;
-	background-color: #22A7F0;
-	min-width: 75px;
-	min-height: 40px;
-	border: none;
-	border-style: none;
-	color: white;
-	border-radius: 0px !important;
-	padding: 5px 10px 5px 10px !important;
-	-webkit-transition: all .35s;
-    -moz-transition: all .35s;
-    transition: all .35s;
-    transition: all .35s ease-in-out;
-
-
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background-color: #22A7F0;
+    min-width: 75px;
+    min-height: 40px;
+    border: none;
+    border-style: none;
+    color: #fff;
+    border-radius: 0 !important;
+    padding: 5px 10px !important;
+    -webkit-transition: all .35s;
+        -moz-transition: all .35s;
+        transition: all .35s;
+        transition: all .35s ease-in-out;
 }
-
-
